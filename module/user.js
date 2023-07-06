@@ -3,7 +3,7 @@ const userSchema=new mongoose.Schema(
     {
     title:String,
     price:Number,
-    date: Date
+    date:Date
 },{timestamps:true}
 
 )
